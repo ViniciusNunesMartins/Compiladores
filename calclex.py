@@ -40,7 +40,6 @@ def t_NUMBER(t):
 
 def t_ID(t):
     r'[a-zA-Z]([a-zA-Z] | \d)+'
-    if
     t.value = str(t.value)
     return t
 
